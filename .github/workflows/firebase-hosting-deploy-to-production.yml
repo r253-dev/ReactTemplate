@@ -18,4 +18,4 @@ jobs:
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_R253_DEV }}"
           channelId: live
           projectId: r253-dev
-          target: r253-prod
+          target: prod
