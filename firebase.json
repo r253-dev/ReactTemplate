@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "site": "r253-dev",
+      "target": "dev",
       "public": "dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "site": "r253-prod",
+      "target": "prod",
       "public": "dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [

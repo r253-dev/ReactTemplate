@@ -5,10 +5,10 @@
   "targets": {
     "r253-dev": {
       "hosting": {
-        "r253-prod": [
+        "prod": [
           "r253-prod"
         ],
-        "r253-dev": [
+        "dev": [
           "r253-dev"
         ]
       }
