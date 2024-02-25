@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --mode development",
-    "build:dev": "webpack --config webpack.dev.js --mode development"
+    "build:dev": "webpack --config webpack.dev.js --mode development",
+    "build:prod": "webpack --config webpack.prod.js --mode production"
   },
   "dependencies": {
     "react": "^18.2.0",
