@@ -5,9 +5,15 @@ module.exports = {
   entry: "./src/Index.tsx",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "[hash].js",
+    filename: "[fullhash].js",
     publicPath: "/",
     clean: true,
+  },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+    },
+    extensions: [".ts", ".tsx", ".js"],
   },
   module: {
     rules: [
